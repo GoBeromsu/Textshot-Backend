@@ -1,0 +1,18 @@
+{
+  "ignorePaths": [
+    "**/node_modules/**",
+    "**/vscode-extension/**",
+    "**/.git/**",
+    ".github/**",
+    ".husky/**",
+    ".vscode",
+    ".gitignore",
+    "megalinter",
+    "package.json",
+    "package-lock.json"
+  ],
+  "language": "en",
+  "noConfigSearch": true,
+  "words": ["fastify", "mihaur", "nosemgrep", "TRIVY"],
+  "version": "0.2"
+}
