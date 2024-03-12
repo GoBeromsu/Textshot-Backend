@@ -1,8 +1,11 @@
 import Fastify, {FastifyInstance} from "fastify";
 import {IncomingMessage, Server, ServerResponse} from "http";
+import routes from "@routes/index";
 
 const PORT: number = Number(process.env.PORT) || 4000;
 const fastify: FastifyInstance<Server, IncomingMessage, ServerResponse> = Fastify();
+
+routes(fastify);
 
 async function start() {
   try {
