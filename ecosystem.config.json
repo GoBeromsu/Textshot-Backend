@@ -1,7 +1,7 @@
 {
   "apps": [
     {
-      "name": "soon",
+      "name": "textshot-backend",
       "script": "./node_modules/.bin/ts-node -r tsconfig-paths/register -r src/index.ts",
       "watch": true,
       "ignore_watch": ["node_modules", "logs", "config", "dist", "public"],
